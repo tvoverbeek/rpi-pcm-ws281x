@@ -10,7 +10,7 @@ unicorn hat libraty (https://github.com/pimoroni/unicorn-hat/tree/master/library
 
 Differences with the PWM version:
 - Only one channel available instead of two.
-- Uses the PCM_DOUT pin (pin 40 on the 49-pin connector, GPIO21-ALT0)
+- Uses the PCM_DOUT pin (pin 40 on the 40-pin connector, GPIO21-ALT0)
   instead of the PWM0 pin (pin 12 on the 40-pin connector, GPIO18-ALT5)
 - Since the PCM hardware is used, no I2S audio (hifiberry, pHAT DAC, etc.)
 - However analog audio via the headphone jack can be used simultaneously
